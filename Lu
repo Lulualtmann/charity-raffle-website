@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Charity Raffle Service</title>
+    <!-- Add any additional meta tags, stylesheets, or scripts here -->
+</head>
+<body>
+
+<header>
+    <!-- You can add a header with your company name or a navigation menu here -->
+    <h1>Your Charity Raffle Service</h1>
+</header>
+
+<main>
+    <!-- Homepage Section -->
+    <section>
+        <h2>Welcome to Your Charity Raffle Service</h2>
+        <p>Enter the event code or look up an event by name or date:</p>
+        <!-- Add a form for entering event details -->
+        <form>
+            <label for="eventCode">Event Code:</label>
+            <input type="text" id="eventCode" name="eventCode" required>
+            <button type="submit">Search</button>
+        </form>
+
+        <p>Event organizers, finalize your event and generate a winning ticket:</p>
+        <!-- Add a button for organizers -->
+        <button id="finalizeEvent">Finalize Event</button>
+
+        <p>New event organizer? Sign up for the service:</p>
+        <!-- Add a form for event organizer sign-up -->
+        <form>
+            <!-- Include necessary input fields for organizer sign-up -->
+            <button type="submit">Sign Up</button>
+        </form>
+    </section>
+
+    <!-- Golfer's Event Page Section -->
+    <section>
+        <h2>Your Event: [Event Name]</h2>
+        <p>Total raised so far: $XXX</p>
+
+        <!-- Add a section for purchasing tickets -->
+        <h3>Buy Tickets</h3>
+        <!-- Include ticket purchase form -->
+
+        <!-- Display purchased ticket numbers -->
+        <h3>Your Ticket Numbers</h3>
+        <!-- Display the list of ticket numbers purchased by the golfer -->
+    </section>
+</main>
+
+<footer>
+    <!-- Add footer content if necessary -->
+    <p>&copy; 2024 Your Charity Raffle Service. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
+
